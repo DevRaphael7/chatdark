@@ -34,7 +34,7 @@ if __name__ == "__main__":
     bot.train_bot(
         TrainList.first_list_conversation("R2-D2"), 
         TrainList.placas_video(),
-        TrainList.processadores()
+        # TrainList.processadores() Não está dando o deploy por causa disso
     )
 
     socketio.run(app, debug=False, port=port) # rodar o servidor
