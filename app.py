@@ -37,4 +37,4 @@ if __name__ == "__main__":
         TrainList.processadores()
     )
 
-    socketio.run(app, debug=True, port=port) # rodar o servidor
+    socketio.run(app, debug=False, port=port) # rodar o servidor
